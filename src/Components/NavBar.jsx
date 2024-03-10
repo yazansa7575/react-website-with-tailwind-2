@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaFacebookSquare, FaGooglePlusG, FaTwitter } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { CiMenuFries } from "react-icons/ci";
+import { Slide } from "react-awesome-reveal";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -54,16 +55,32 @@ const NavBar = () => {
         } fixed top-0  bg-black h-[100vh] w-full z-[99]  `}
       >
         <ul className="flex flex-col  mt-12 text-[1rem] ">
-          <a href="/" className="w-full text-center" onClick={()=>setNav(!nav)}>
+          <a
+            href="/"
+            className="w-full text-center"
+            onClick={() => setNav(!nav)}
+          >
             <li className=" hover:tracking-wide	 hover:bg-gray-900">Home</li>
           </a>
-          <a href="#Deals" className="w-full text-center" onClick={()=>setNav(!nav)}>
+          <a
+            href="#Deals"
+            className="w-full text-center"
+            onClick={() => setNav(!nav)}
+          >
             <li className=" hover:tracking-wide	 hover:bg-gray-900">Deals</li>
           </a>
-          <a href="#Gallery" className="w-full text-center" onClick={()=>setNav(!nav)}>
+          <a
+            href="#Gallery"
+            className="w-full text-center"
+            onClick={() => setNav(!nav)}
+          >
             <li className=" hover:tracking-wide	 hover:bg-gray-900">Gallery</li>
           </a>
-          <a href="#Contact" className="w-full text-center" onClick={()=>setNav(!nav)}>
+          <a
+            href="#Contact"
+            className="w-full text-center"
+            onClick={() => setNav(!nav)}
+          >
             <li className=" hover:tracking-wide	 hover:bg-gray-900">Contact</li>
           </a>
         </ul>
