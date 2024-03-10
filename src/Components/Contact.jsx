@@ -11,7 +11,7 @@ const Contact = () => {
           <img
             loading="lazy"
             className=" h-full w-full object-cover  "
-            src="Contact.jpg"
+            src="https://images.unsplash.com/photo-1682695796497-31a44224d6d6?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8NDh8fGJlYWNofGVufDB8MHwwfHx8MA%3D%3D"
             alt="/"
           />
           <form>

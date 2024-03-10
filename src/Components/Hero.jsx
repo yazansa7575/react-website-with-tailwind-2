@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 const Hero = () => {
   return (
     <Fade>
-      <div className=" h-[90vh] w-full bg-red-500 relative">
+      <div className=" h-[90vh] w-full relative">
         <img
           loading="lazy"
           src="https://images.pexels.com/photos/1488331/pexels-photo-1488331.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

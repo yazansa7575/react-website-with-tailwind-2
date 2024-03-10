@@ -13,7 +13,7 @@ const Activities = () => {
           </div>
           <img
             loading="lazy"
-            src="./hero_1.jpg"
+            src="https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJlYWNofGVufDB8MHwwfHx8MA%3D%3D"
             alt=""
             className="  rounded-sm h-full w-full object-cover border-white border-4  "
           />
@@ -27,7 +27,7 @@ const Activities = () => {
           </div>
           <img
             loading="lazy"
-            src="./hero_2.jpg"
+            src="https://images.unsplash.com/photo-1535262412227-85541e910204?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGJlYWNofGVufDB8MHwwfHx8MA%3D%3D"
             alt=""
             className="  rounded-sm h-full w-full object-cover border-white border-4  "
           />
@@ -41,7 +41,7 @@ const Activities = () => {
           </div>
           <img
             loading="lazy"
-            src="./hero_3.jpg"
+            src="https://images.unsplash.com/photo-1515404929826-76fff9fef6fe?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fGJlYWNofGVufDB8MHwwfHx8MA%3D%3D"
             alt=""
             className="  rounded-sm h-full w-full object-cover border-white border-4  "
           />
